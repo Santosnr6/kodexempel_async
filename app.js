@@ -33,7 +33,7 @@ async function fetchPokemon(pokeApiString) {
     // });
 }
 
-async function hund() {
+async function program() {
     const pokemons = await fetchPokemon('https://pokeapi.co/api/v2/pokemon?limit=151&offset=0');
     console.log(pokemons);
 
@@ -57,4 +57,4 @@ async function hund() {
     // })
 }
 
-hund();
+program();
